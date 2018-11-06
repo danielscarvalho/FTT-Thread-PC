@@ -33,7 +33,7 @@ class ThreadB extends Thread {
         public void run(){
             synchronized(this){
             	
-                for(int i=0; i < 1200 ; i++){
+                for(int i=0; i < 14200 ; i++){
                     this.total += i;
                 } //for
                 
