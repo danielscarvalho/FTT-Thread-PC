@@ -28,6 +28,7 @@ public class ThreadA {
 class ThreadB extends Thread {
 
         private int total;
+        
         @Override
         public void run(){
             synchronized(this){
